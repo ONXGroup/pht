@@ -7,10 +7,10 @@ environment:
 
   matrix:
     - ARCH: x86
-      PHP_VER: 7.2
+      PHP_VER: 7.3
       VC_VER: vc15
     - ARCH: x64
-      PHP_VER: 7.2
+      PHP_VER: 7.3
       VC_VER: vc15
 install:
 - cmd: cinst wget
